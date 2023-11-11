@@ -1,0 +1,88 @@
+$color1: #292F36;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header {
+    width: 100%;
+    .header_nav {
+        display: flex;
+        width: 90%;
+        height: 50px;
+        margin-left: 150px;
+        .header_nav-logo {
+            display: flex;
+            justify-content: center;
+            width: 45%;
+        }
+        .header_nav-home {
+            width: 55%;
+            height: 100%;
+            .header_nav-home-ul {
+                display: flex;
+                justify-content: space-around;
+                width: 70%;
+                height: 100%;
+                .header_nav-home-ul-li {
+                    width: 100%;
+                    height: 100%;
+                    margin-top: 15px;
+                    color: $color1;
+                }
+            }
+        }
+    }
+    .header_img {
+        width: 100%;
+        height: 300px;
+        background-image: url(../../img/Photo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        .header_img-p {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: end;
+            .header_img-p1 {
+                color: $color1;
+                padding-top: 20px;
+                width: 300px;
+                height: 100px;
+                border-top-left-radius: 50px;
+                border-top-right-radius: 50px;
+                text-align: center;
+                background-color: #fff;
+            }
+        }
+    }
+    .header_color {
+        display: flex;
+        background-color: #F6F6F6;
+        margin: 200px auto 0;
+        width: 800px;
+        height: 200px;
+        border-radius: 40px;
+        .header_color-p {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            .header_color-p1 {
+                width: 200px;
+            }
+        }
+        .header_color-col-ul {
+            display: flex;
+            width: 350px;
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
